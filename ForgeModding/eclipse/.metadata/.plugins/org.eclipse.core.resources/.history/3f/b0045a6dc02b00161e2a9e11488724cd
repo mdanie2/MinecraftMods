@@ -1,0 +1,9 @@
+item.lightningmod_LightningRod.name=Lightning Rod
+tile.lightningmod_LightningBlock.name=Thor's Block
+item.lightningmod_LightningIngot.name=Lightning Ingot
+tile.lightningmod_LightningOre.name=Lightning Ore
+entity.LightningOreZombie.name=Lightning Ore Zombie
+item.lightningmod_LightningSword.name=Lightning Sword
+item.lightningmod_Wings.name=Wings
+item.lightningmod_ZeussStaff.name=Zeus Staff
+tile.lightningmod_ZeusOre.name=Zeus Ore

@@ -7,6 +7,7 @@ import com.matt.mod.MyMod;
 
 public class LightningSword extends ItemSword{
 	
+	
 	public final String name = "LightningSword";
 
 	public LightningSword(ToolMaterial material){
@@ -15,9 +16,6 @@ public class LightningSword extends ItemSword{
 		this.setMaxDamage(100);
 		this.setCreativeTab(CreativeTabs.tabCombat);
 	}
-
-
-	
 	
 
 }

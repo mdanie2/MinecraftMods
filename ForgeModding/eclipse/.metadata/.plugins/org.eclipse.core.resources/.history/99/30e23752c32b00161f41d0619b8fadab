@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mymod",
+  "name": "Matt's Mod",
+  "description": "Lightning Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Matthew Daniel"],
+  "credits": "The Forge and FML guys, for making Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

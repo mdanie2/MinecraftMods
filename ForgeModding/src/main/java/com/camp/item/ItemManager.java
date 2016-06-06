@@ -1,5 +1,6 @@
 package com.camp.item;
 
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.matt.mod.MyMod;
@@ -20,7 +21,8 @@ public class ItemManager {
     public static void initializeItem() {
     	lightningRod = new LightningRod();
     	lightningIngot = new LightningIngot();
-    	lightningSword = new LightningSword(MyMod.customToolMaterial);
+    	//lightningSword = new LightningSword(MyMod.customToolMaterial);
+    	lightningSword = new LightningSword(ToolMaterial.STONE);
     	wings = new Wings();
     	zStaff = new ZeussStaff();
     }

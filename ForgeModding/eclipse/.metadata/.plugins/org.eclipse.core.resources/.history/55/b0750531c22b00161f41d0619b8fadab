@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mymod",
+  "name": "Matt's Mod",
+  "description": "Lightnign Mod",
+  "version": "1.8.8-1.2",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Matthew Daniel"],
+  "credits": "The Forge and FML guys, for making Forge.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

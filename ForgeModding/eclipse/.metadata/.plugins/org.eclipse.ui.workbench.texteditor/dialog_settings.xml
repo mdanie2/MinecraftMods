@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="damageIt" key="selection"/>
+		<item value="my" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="lightning"/>
 			<item value="damageIt"/>
 			<item value="damage"/>
 			<item value="break"/>
@@ -15,7 +16,6 @@
 			<item value="br"/>
 			<item value="bre"/>
 			<item value="brea"/>
-			<item value="breaks"/>
 		</list>
 		<list key="replacehistory">
 			<item value="my"/>
@@ -25,7 +25,7 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="265" key="DIALOG_WIDTH"/>
-		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="958" key="DIALOG_X_ORIGIN"/>
 		<item value="378" key="DIALOG_Y_ORIGIN"/>

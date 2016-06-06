@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lightningmod",
+  "name": "Lightning Mod",
+  "description": "",
+  "version": "1.8.8-1.2",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Matthew Daniel"],
+  "credits": "The Forge and FML guys for creating Forge. Matthew Daniel (www.github.com/mdanie2) for crafting the Lightning Mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

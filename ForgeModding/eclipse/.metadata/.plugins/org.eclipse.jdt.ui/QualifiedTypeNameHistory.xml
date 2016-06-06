@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="com.example.examplemod.ExampleMod"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
 </qualifiedTypeNameHistroy>
