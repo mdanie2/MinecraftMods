@@ -10,7 +10,7 @@ public class ItemManager {
 	public static LightningIngot lightningIngot;
 	public static LightningSword lightningSword;
 	public static Wings wings;
-	public static ZeussStaff staff;
+	public static ZeussStaff zStaff;
 	
     public static void mainRegistry() {
         initializeItem();
@@ -22,7 +22,7 @@ public class ItemManager {
     	lightningIngot = new LightningIngot();
     	lightningSword = new LightningSword(MyMod.customToolMaterial);
     	wings = new Wings();
-    	staff = new ZeussStaff();
+    	zStaff = new ZeussStaff();
     }
 
     public static void registerItem() {
@@ -30,7 +30,7 @@ public class ItemManager {
     	GameRegistry.registerItem(lightningIngot, lightningIngot.name);
     	GameRegistry.registerItem(lightningSword, lightningSword.name);
     	GameRegistry.registerItem(wings, wings.name);
-    	GameRegistry.registerItem(staff, staff.name);
+    	GameRegistry.registerItem(zStaff, zStaff.name);
     }
  
 }

@@ -81,6 +81,9 @@ public class MyMod
 			renderItem.getItemModelMesher().register(ItemManager.lightningIngot, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningIngot.name, "inventory"));
 			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.lightningOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.lightningOre.name));
 			renderItem.getItemModelMesher().register(ItemManager.lightningSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningSword.name));
+			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeusOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeusOre.name));
+			renderItem.getItemModelMesher().register(ItemManager.wings, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.wings.name));
+			renderItem.getItemModelMesher().register(ItemManager.zStaff, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.zStaff.name));
 		}
 		
 		// Entity Spawns

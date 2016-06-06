@@ -11,7 +11,7 @@ import com.matt.mod.MyMod;
 
 public class ZeussStaff extends Item{
 	
-	public static final String name = "ZeusStaff";
+	public static final String name = "ZeussStaff";
 	
 	public ZeussStaff(){
 		super();	
