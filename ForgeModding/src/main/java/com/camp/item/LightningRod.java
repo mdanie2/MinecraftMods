@@ -15,7 +15,7 @@ import com.matt.mod.MyMod;
 
 public class LightningRod extends Item{
 	
-	public static final String name = "LightningRod";
+	public static final String name = "lightningRod";
 	
 	public LightningRod(){
 		super();

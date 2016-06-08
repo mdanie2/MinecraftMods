@@ -1,5 +1,7 @@
 package com.camp.entity;
 
+import com.camp.item.ItemManager;
+
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackOnCollide;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
@@ -10,11 +12,11 @@ import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
-
-import com.camp.item.ItemManager;
 
 public class LightningOreZombie extends EntityMob {
 
@@ -24,11 +26,13 @@ public class LightningOreZombie extends EntityMob {
 		this.tasks.addTask(0, new EntityAISwimming(this));
 		//research aiattackoncollide more
         this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityPlayer.class, 1.0D, false));
-        this.tasks.addTask(7, new EntityAIWander(this, 1.0D));this.tasks.addTask(8, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
+        this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
+        this.tasks.addTask(8, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
         this.tasks.addTask(8, new EntityAILookIdle(this));
          
         this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
+        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityZombie.class, true));
 	}
 
 
@@ -48,9 +52,11 @@ public class LightningOreZombie extends EntityMob {
 	@Override
 	public void dropFewItems(boolean recentlyHit, int lootLevel) {
 	    int quantity = this.rand.nextInt(2) + 1;
-	 
+	    int typeOfDrop = this.rand.nextInt(9) + 1;
+	    Item drop;
+	    if(typeOfDrop == 1) drop = ItemManager.lightningIngot;
+	    else drop = Items.rotten_flesh;
 	    for (int i = 0; i < quantity; i++) {        
-	            Item drop = ItemManager.lightningIngot;
 	            this.dropItem(drop, 1);
 	    }
 	 

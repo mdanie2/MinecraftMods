@@ -22,7 +22,6 @@ public class ItemManager {
     	lightningRod = new LightningRod();
     	lightningIngot = new LightningIngot();
     	lightningSword = new LightningSword(MyMod.customToolMaterial);
-    	//lightningSword = new LightningSword(ToolMaterial.STONE);
     	wings = new Wings();
     	zStaff = new ZeussStaff();
     }

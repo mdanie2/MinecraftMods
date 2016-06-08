@@ -8,7 +8,7 @@ import com.matt.mod.MyMod;
 public class LightningSword extends ItemSword{
 	
 	
-	public final String name = "LightningSword";
+	public final String name = "lightningSword";
 
 	public LightningSword(ToolMaterial material){
 		super(material);

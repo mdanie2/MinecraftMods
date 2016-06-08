@@ -1,0 +1,107 @@
+package com.matt.mod;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.entity.EntityList;
+import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+
+import com.camp.block.BlockManager;
+import com.camp.entity.LightningOreZombie;
+import com.camp.entity.RenderCustomBiped;
+import com.camp.item.ItemManager;
+import com.camp.world.CustomOreGenerator;
+
+@Mod(modid = MyMod.MODID, version = MyMod.VERSION)
+public class MyMod
+{
+	public static final String MODID = "mymod";
+	public static final String VERSION = "1.0";
+	
+	public static CustomOreGenerator customOreGenerator;
+	public static ToolMaterial customToolMaterial;
+	
+	@EventHandler
+	public void preinit(FMLPreInitializationEvent event)
+	{
+		// name of material, harvest level (0-3), max uses, efficiency, damage in half hearts, enchanability
+        customToolMaterial = EnumHelper.addToolMaterial("Lightning", 3, 100, 4, 7, 8);
+		ItemManager.mainRegistry();
+		BlockManager.mainRegistry();
+		createEntity(LightningOreZombie.class, "LightningOreZombie", 0x7851A9, 0xFFFF00);
+	}
+
+	@EventHandler
+	public void init(FMLInitializationEvent event)
+	{
+		//World Generator
+		customOreGenerator = new CustomOreGenerator();
+		GameRegistry.registerWorldGenerator(customOreGenerator, 10);
+		
+		//Rendering Mobs
+		RenderingRegistry.registerEntityRenderingHandler(LightningOreZombie.class, new RenderCustomBiped(LightningOreZombie.class, new ModelBiped(), 0.5f));
+		
+		//Shapeless Recipes
+		ItemStack lightningIngotStack = new ItemStack(ItemManager.lightningIngot, 9);
+		GameRegistry.addShapelessRecipe(new ItemStack(BlockManager.lightningBlock), lightningIngotStack, lightningIngotStack, lightningIngotStack,
+				lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack);
+		GameRegistry.addShapelessRecipe(new ItemStack(ItemManager.lightningIngot, 9), BlockManager.lightningBlock);
+		 
+		//Shaped Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(ItemManager.lightningRod, 1), "byb", "zyz", "xyx", 
+				'b', BlockManager.lightningBlock, 'x', Blocks.tnt, 'y', ItemManager.lightningIngot, 'z', Items.diamond);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemManager.lightningSword, 1), " l ", " l ", " s ", 
+				'l', ItemManager.lightningIngot, 's', Items.stick);
+
+		//Smelting Recipes
+		GameRegistry.addSmelting(new ItemStack(BlockManager.lightningOre), new ItemStack(ItemManager.lightningIngot), 0.5f);
+		
+		if(event.getSide() == Side.CLIENT)
+		{
+			RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+
+			renderItem.getItemModelMesher().register(ItemManager.lightningRod, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningRod.name, "inventory"));
+			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.lightningBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.lightningBlock.name, "inventory"));
+			renderItem.getItemModelMesher().register(ItemManager.lightningIngot, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningIngot.name, "inventory"));
+			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.lightningOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.lightningOre.name));
+			renderItem.getItemModelMesher().register(ItemManager.lightningSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningSword.name));
+			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeusOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeusOre.name));
+			renderItem.getItemModelMesher().register(ItemManager.wings, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.wings.name));
+			renderItem.getItemModelMesher().register(ItemManager.zStaff, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.zStaff.name));
+		}
+		
+		// Entity Spawns
+        //addSpawn(LightningOreZombie.class, 1000, 3, 7, EnumCreatureType.MONSTER);
+	}
+	
+	public static void createEntity(Class entityClass, String entityName, int solidColor, int spotColor) {
+	    int entityId = EntityRegistry.findGlobalUniqueEntityId();
+	    EntityRegistry.registerGlobalEntityID(entityClass, entityName, entityId);
+	    EntityList.entityEggs.put(Integer.valueOf(entityId), new EntityList.EntityEggInfo(entityId, solidColor, spotColor));
+	}
+	
+	public static void addSpawn(Class entityClass, int probability, int min, int max, EnumCreatureType type) {
+	    for (int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++) {
+	        if (BiomeGenBase.getBiomeGenArray()[i] != null) {
+	            EntityRegistry.addSpawn(entityClass, probability, min, max, type, BiomeGenBase.getBiomeGenArray()[i]);
+	        }
+	    }
+	}
+}
+

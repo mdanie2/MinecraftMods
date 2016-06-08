@@ -1,0 +1,9 @@
+item.mymod_LightningRod.name=Lightning Rod
+tile.mymod_lightningBlock.name=Thor's Block
+item.mymod_LightningIngot.name=Lightning Ingot
+tile.mymod_LightningOre.name=Lightning Ore
+entity.LightningOreZombie.name=Lightning Ore Zombie
+item.mymod_LightningSword.name=Lightning Sword
+item.mymod_Wings.name=Wings
+item.mymod_ZeussStaff.name=Zeus Staff
+tile.mymod_ZeusOre.name=Zeus Ore

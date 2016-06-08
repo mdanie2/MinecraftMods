@@ -17,7 +17,7 @@ import com.camp.entity.LightningOreZombie;
 import com.matt.mod.MyMod;
 
 public class LightningOre extends Block{
-	public static final String name = "LightningOre";
+	public static final String name = "lightningOre";
 
 	public LightningOre(){
 		super(Material.iron);

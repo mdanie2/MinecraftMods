@@ -31,8 +31,8 @@ import com.camp.world.CustomOreGenerator;
 @Mod(modid = MyMod.MODID, version = MyMod.VERSION)
 public class MyMod
 {
-	public static final String MODID = "mymod";
-	public static final String VERSION = "1.0";
+	public static final String MODID = "lightningmod";
+	public static final String VERSION = "1.2";
 	
 	public static CustomOreGenerator customOreGenerator;
 	public static ToolMaterial customToolMaterial;
@@ -58,9 +58,8 @@ public class MyMod
 		RenderingRegistry.registerEntityRenderingHandler(LightningOreZombie.class, new RenderCustomBiped(LightningOreZombie.class, new ModelBiped(), 0.5f));
 		
 		//Shapeless Recipes
-		ItemStack lightningIngotStack = new ItemStack(ItemManager.lightningIngot);
-		GameRegistry.addShapelessRecipe(new ItemStack(BlockManager.lightningBlock), lightningIngotStack, lightningIngotStack, lightningIngotStack,
-				lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack, lightningIngotStack);
+		GameRegistry.addShapelessRecipe(new ItemStack(BlockManager.lightningBlock), ItemManager.lightningIngot, ItemManager.lightningIngot, ItemManager.lightningIngot,
+				ItemManager.lightningIngot, ItemManager.lightningIngot, ItemManager.lightningIngot, ItemManager.lightningIngot, ItemManager.lightningIngot, ItemManager.lightningIngot);
 		GameRegistry.addShapelessRecipe(new ItemStack(ItemManager.lightningIngot, 9), BlockManager.lightningBlock);
 		 
 		//Shaped Recipes
@@ -80,7 +79,7 @@ public class MyMod
 			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.lightningBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.lightningBlock.name, "inventory"));
 			renderItem.getItemModelMesher().register(ItemManager.lightningIngot, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningIngot.name, "inventory"));
 			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.lightningOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.lightningOre.name));
-			renderItem.getItemModelMesher().register(ItemManager.lightningSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningSword.name));
+			renderItem.getItemModelMesher().register(ItemManager.lightningSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.lightningSword.name, "inventory"));
 			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeusOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeusOre.name));
 			renderItem.getItemModelMesher().register(ItemManager.wings, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.wings.name));
 			renderItem.getItemModelMesher().register(ItemManager.zStaff, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.zStaff.name));

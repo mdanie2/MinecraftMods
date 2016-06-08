@@ -11,7 +11,7 @@ import com.matt.mod.MyMod;
 
 public class Wings extends Item{
 	
-	public static final String name = "Wings";
+	public static final String name = "wings";
 	
 	public Wings(){
 		super();
@@ -25,13 +25,13 @@ public class Wings extends Item{
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn,
 			EntityPlayer playerIn) {
+		playerIn.capabilities.allowFlying = !playerIn.capabilities.allowFlying;
 		if(playerIn.capabilities.isFlying){
-			if(playerIn.capabilities.getFlySpeed() >= 0.25F)
+			if(playerIn.capabilities.getFlySpeed() >= 0.25F){
 				playerIn.capabilities.setFlySpeed(0.0F);
+			}
 			playerIn.capabilities.setFlySpeed(playerIn.capabilities.getFlySpeed() + 0.05F);
 		}	
-		else
-			playerIn.capabilities.allowFlying = !playerIn.capabilities.allowFlying;
 		itemStackIn.damageItem(1, playerIn);
 		return super.onItemRightClick(itemStackIn, worldIn, playerIn);
 	}

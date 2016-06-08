@@ -15,7 +15,7 @@ import com.matt.mod.MyMod;
 
 public class ZeusOre extends Block{
 	
-	public static final String name = "ZeusOre";
+	public static final String name = "zeusOre";
 	
 	public ZeusOre(){
 		super(Material.dragonEgg);
