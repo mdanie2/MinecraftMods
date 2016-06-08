@@ -1,28 +1,31 @@
-[01:32:17] [Client thread/INFO]: Setting user: Player677
-[01:32:19] [Client thread/INFO]: LWJGL Version: 2.9.2
-[01:32:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Matt's Mod
-[01:32:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:32:22] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[01:32:22] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:32:22] [Thread-8/INFO]: OpenAL initialized.
-[01:32:22] [Sound Library Loader/INFO]: Sound engine started
-[01:32:23] [Client thread/INFO]: Created: 512x512 textures-atlas
-[01:32:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Matt's Mod
-[01:32:24] [Client thread/INFO]: SoundSystem shutting down...
-[01:32:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[01:32:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:32:24] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[01:32:24] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:32:24] [Thread-10/INFO]: OpenAL initialized.
-[01:32:25] [Sound Library Loader/INFO]: Sound engine started
-[01:32:25] [Client thread/INFO]: Created: 512x512 textures-atlas
-[01:32:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[01:32:29] [Server thread/INFO]: Generating keypair
-[01:32:30] [Server thread/INFO]: Preparing start region for level 0
-[01:32:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[01:32:32] [Server thread/INFO]: Player677[local:E:6b4d17a8] logged in with entity id 255 at (54.21615611209529, 67.0, -3.67512277574191)
-[01:32:32] [Server thread/INFO]: Player677 joined the game
-[01:32:32] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@177244f5[id=752a0b44-017a-3fb3-b7fd-a355ab650513,name=Player677,properties={},legacy=false]
+[13:51:18] [Client thread/INFO]: Setting user: Player304
+[13:51:20] [Client thread/INFO]: LWJGL Version: 2.9.2
+[13:51:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Matt's Mod
+[13:51:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:51:22] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:51:22] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:51:22] [Thread-8/INFO]: OpenAL initialized.
+[13:51:23] [Sound Library Loader/INFO]: Sound engine started
+[13:51:25] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:51:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Matt's Mod
+[13:51:26] [Client thread/INFO]: SoundSystem shutting down...
+[13:51:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:51:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:51:26] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:51:26] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:51:26] [Thread-10/INFO]: OpenAL initialized.
+[13:51:26] [Sound Library Loader/INFO]: Sound engine started
+[13:51:27] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:51:46] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[13:51:46] [Server thread/INFO]: Generating keypair
+[13:51:46] [Server thread/INFO]: Converting map!
+[13:51:46] [Server thread/INFO]: Scanning folders...
+[13:51:46] [Server thread/INFO]: Total conversion count is 0
+[13:51:47] [Server thread/INFO]: Preparing start region for level 0
+[13:51:47] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:51:48] [Server thread/INFO]: Player304[local:E:64232c55] logged in with entity id 5 at (-700.5, 4.0, 200.5)
+[13:51:48] [Server thread/INFO]: Player304 joined the game
+[13:51:49] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@d76a6bd[id=2b98548a-5e09-3029-b082-b4c99d31d926,name=Player304,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -43,41 +46,201 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_31]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
-[01:32:40] [Client thread/INFO]: [CHAT] mymod:LightningSword, mymod:LightningIngot, mymod:LightningOre, mymod:LightningRod, mymod:LightningBlock
-[01:32:41] [Client thread/INFO]: [CHAT] mymod:LightningSword, mymod:LightningIngot, mymod:LightningOre, mymod:LightningRod, mymod:LightningBlock
-[01:32:42] [Client thread/INFO]: [CHAT] mymod:LightningSword, mymod:LightningIngot, mymod:LightningOre, mymod:LightningRod, mymod:LightningBlock
-[01:32:43] [Client thread/INFO]: [CHAT] mymod:LightningSword, mymod:LightningIngot, mymod:LightningOre, mymod:LightningRod, mymod:LightningBlock
-[01:32:43] [Server thread/INFO]: [Player677: Given [Lightning Rod] * 1 to Player677]
-[01:32:43] [Client thread/INFO]: [CHAT] Given [Lightning Rod] * 1 to Player677
-[01:32:47] [Server thread/INFO]: [Player677: Given [Thor's Block] * 1 to Player677]
-[01:32:47] [Client thread/INFO]: [CHAT] Given [Thor's Block] * 1 to Player677
-[01:32:51] [Server thread/INFO]: Player677 was struck by lightning
-[01:32:51] [Client thread/INFO]: [CHAT] Player677 was struck by lightning
-[01:33:49] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[01:33:54] [Server thread/INFO]: [Player677: Set own game mode to Creative Mode]
-[01:33:54] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:34:00] [Server thread/INFO]: [Player677: Set own game mode to Survival Mode]
-[01:34:00] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:34:07] [Server thread/INFO]: [Player677: Given [Beacon] * 1 to Player677]
-[01:34:07] [Client thread/INFO]: [CHAT] Given [Beacon] * 1 to Player677
-[01:34:38] [Server thread/INFO]: Player677 has just earned the achievement [Taking Inventory]
-[01:34:38] [Client thread/INFO]: [CHAT] Player677 has just earned the achievement [Taking Inventory]
-[01:34:56] [Server thread/INFO]: [Player677: Given [Gold Ingot] * 1 to Player677]
-[01:34:56] [Client thread/INFO]: [CHAT] Given [Gold Ingot] * 1 to Player677
-[01:35:17] [Server thread/INFO]: [Player677: Given [Gold Ingot] * 1 to Player677]
-[01:35:17] [Client thread/INFO]: [CHAT] Given [Gold Ingot] * 1 to Player677
-[01:35:46] [Server thread/INFO]: [Player677: Set own game mode to Creative Mode]
-[01:35:46] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:36:16] [Server thread/INFO]: Saving and pausing game...
-[01:36:16] [Server thread/INFO]: Saving chunks for level 'Test Test'/Overworld
-[01:36:16] [Server thread/INFO]: Saving chunks for level 'Test Test'/Nether
-[01:36:16] [Server thread/INFO]: Saving chunks for level 'Test Test'/The End
-[01:36:17] [Server thread/INFO]: Stopping server
-[01:36:17] [Server thread/INFO]: Saving players
-[01:36:17] [Server thread/INFO]: Saving worlds
-[01:36:17] [Server thread/INFO]: Saving chunks for level 'Test Test'/Overworld
-[01:36:17] [Server thread/INFO]: Saving chunks for level 'Test Test'/Nether
-[01:36:17] [Server thread/INFO]: Saving chunks for level 'Test Test'/The End
-[01:36:18] [Client thread/INFO]: Stopping!
-[01:36:18] [Client thread/INFO]: SoundSystem shutting down...
-[01:36:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:51:58] [Server thread/INFO]: Saving and pausing game...
+[13:51:58] [Server thread/INFO]: Saving chunks for level 'Display World'/Overworld
+[13:51:58] [Server thread/INFO]: Saving chunks for level 'Display World'/Nether
+[13:51:58] [Server thread/INFO]: Saving chunks for level 'Display World'/The End
+[13:52:12] [Server thread/INFO]: Player304 fell out of the world
+[13:52:12] [Server thread/INFO]: [Player304: Killed Player304]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:12] [Client thread/INFO]: [CHAT] Player304 fell out of the world
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Player304
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:12] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Server thread/INFO]: Player304 fell out of the world
+[13:52:16] [Server thread/INFO]: [Player304: Killed Player304]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Client thread/INFO]: [CHAT] Player304 fell out of the world
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Player304
+[13:52:16] [Server thread/INFO]: [Player304: Killed item.item.slimeball]
+[13:52:16] [Server thread/INFO]: [Player304: Killed item.item.slimeball]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed item.item.slimeball]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed item.item.slimeball]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed item.item.slimeball]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Server thread/INFO]: [Player304: Killed Slime]
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:52:16] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:16] [Client thread/INFO]: [CHAT] Killed Slime
+[13:52:27] [Server thread/INFO]: Saving and pausing game...
+[13:52:27] [Server thread/INFO]: Saving chunks for level 'Display World'/Overworld
+[13:52:27] [Server thread/INFO]: Saving chunks for level 'Display World'/Nether
+[13:52:27] [Server thread/INFO]: Saving chunks for level 'Display World'/The End
