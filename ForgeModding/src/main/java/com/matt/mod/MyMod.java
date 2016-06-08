@@ -86,7 +86,7 @@ public class MyMod
 		}
 		
 		// Entity Spawns
-        //addSpawn(LightningOreZombie.class, 1000, 3, 7, EnumCreatureType.MONSTER);
+        addSpawn(LightningOreZombie.class, 50, 1, 5, EnumCreatureType.MONSTER);
 	}
 	
 	public static void createEntity(Class entityClass, String entityName, int solidColor, int spotColor) {

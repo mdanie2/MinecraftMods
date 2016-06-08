@@ -32,7 +32,7 @@ public class LightningOreZombie extends EntityMob {
          
         this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
-        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityZombie.class, true));
+        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityZombie.class, false));
 	}
 
 
@@ -65,7 +65,6 @@ public class LightningOreZombie extends EntityMob {
 
 	@Override
 	public void onStruckByLightning(EntityLightningBolt lightningBolt) {
-		// TODO Auto-generated method stub
 		this.heal(30);
 	}
 	
