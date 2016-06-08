@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="com.camp.block.BlockManager"/>
 <fullyQualifiedTypeName name="com.camp.item.ItemManager"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraft.world.World"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
@@ -14,4 +13,5 @@
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 </qualifiedTypeNameHistroy>

@@ -2,22 +2,25 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="my" key="selection"/>
+		<item value="lightning" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Lightning"/>
+			<item value="mymod"/>
+			<item value="drop"/>
+			<item value="rare"/>
+			<item value="lightningIngotStack"/>
 			<item value="lightning"/>
 			<item value="damageIt"/>
 			<item value="damage"/>
-			<item value="break"/>
-			<item value="b"/>
-			<item value="br"/>
-			<item value="bre"/>
-			<item value="brea"/>
 		</list>
 		<list key="replacehistory">
+			<item value="lightning"/>
+			<item value="lightningmod"/>
+			<item value="ItemManager.lightningIngot"/>
 			<item value="my"/>
 			<item value="lightningSword"/>
 			<item value="LightningOreZombie"/>
