@@ -1,28 +1,28 @@
-[16:12:21] [Client thread/INFO]: Setting user: Player779
-[16:12:23] [Client thread/INFO]: LWJGL Version: 2.9.2
-[16:12:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:lightningmod
-[16:12:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:12:25] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[16:12:25] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:12:25] [Thread-8/INFO]: OpenAL initialized.
-[16:12:26] [Sound Library Loader/INFO]: Sound engine started
-[16:12:27] [Client thread/INFO]: Created: 512x512 textures-atlas
-[16:12:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:lightningmod
-[16:12:27] [Client thread/INFO]: SoundSystem shutting down...
-[16:12:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[16:12:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:12:28] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[16:12:28] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:12:28] [Thread-10/INFO]: OpenAL initialized.
-[16:12:28] [Sound Library Loader/INFO]: Sound engine started
-[16:12:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[16:12:33] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[16:12:33] [Server thread/INFO]: Generating keypair
-[16:12:33] [Server thread/INFO]: Preparing start region for level 0
-[16:12:34] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:12:35] [Server thread/INFO]: Player779[local:E:6738ddc4] logged in with entity id 389 at (-276.8846143358272, 69.0, 171.04861285737846)
-[16:12:35] [Server thread/INFO]: Player779 joined the game
-[16:12:35] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@867ce95[id=92bdd514-4796-3d7d-b2d4-a03fc9628bd4,name=Player779,properties={},legacy=false]
+[02:14:24] [Client thread/INFO]: Setting user: Player493
+[02:14:26] [Client thread/INFO]: LWJGL Version: 2.9.2
+[02:14:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:lightningmod
+[02:14:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:14:28] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[02:14:28] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:14:28] [Thread-8/INFO]: OpenAL initialized.
+[02:14:28] [Sound Library Loader/INFO]: Sound engine started
+[02:14:29] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:14:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:lightningmod
+[02:14:30] [Client thread/INFO]: SoundSystem shutting down...
+[02:14:30] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[02:14:30] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:14:31] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[02:14:31] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:14:31] [Thread-10/INFO]: OpenAL initialized.
+[02:14:31] [Sound Library Loader/INFO]: Sound engine started
+[02:14:31] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:14:36] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[02:14:36] [Server thread/INFO]: Generating keypair
+[02:14:36] [Server thread/INFO]: Preparing start region for level 0
+[02:14:37] [Server thread/INFO]: Changing view distance to 12, from 10
+[02:14:38] [Server thread/INFO]: Player493[local:E:17adf9f1] logged in with entity id 60 at (-1918.978689983942, 4.0, 45.4258562396421)
+[02:14:38] [Server thread/INFO]: Player493 joined the game
+[02:14:38] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@21833d72[id=34077235-b312-3a6b-9fdd-0d5e06f91c0e,name=Player493,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -43,65 +43,19 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_31]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
-[16:12:41] [Server thread/INFO]: Saving and pausing game...
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/Overworld
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/Nether
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/The End
-[16:12:41] [Server thread/INFO]: Stopping server
-[16:12:41] [Server thread/INFO]: Saving players
-[16:12:41] [Server thread/INFO]: Saving worlds
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/Overworld
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/Nether
-[16:12:41] [Server thread/INFO]: Saving chunks for level 'Zombie v LOZ'/The End
-[16:12:50] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[16:12:50] [Server thread/INFO]: Generating keypair
-[16:12:50] [Server thread/INFO]: Converting map!
-[16:12:50] [Server thread/INFO]: Scanning folders...
-[16:12:50] [Server thread/INFO]: Total conversion count is 0
-[16:12:51] [Server thread/INFO]: Preparing start region for level 0
-[16:12:52] [Server thread/INFO]: Preparing spawn area: 10%
-[16:12:53] [Server thread/INFO]: Preparing spawn area: 21%
-[16:12:54] [Server thread/INFO]: Preparing spawn area: 34%
-[16:12:55] [Server thread/INFO]: Preparing spawn area: 48%
-[16:12:56] [Server thread/INFO]: Preparing spawn area: 66%
-[16:12:57] [Server thread/INFO]: Preparing spawn area: 81%
-[16:12:58] [Server thread/INFO]: Preparing spawn area: 97%
-[16:12:58] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:12:58] [Server thread/INFO]: Player779[local:E:c1be4978] logged in with entity id 764 at (209.5, 63.0, 249.5)
-[16:12:58] [Server thread/INFO]: Player779 joined the game
-[16:13:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2925ms behind, skipping 58 tick(s)
-[16:13:17] [Server thread/INFO]: Saving and pausing game...
-[16:13:17] [Server thread/INFO]: Saving chunks for level 'lvz'/Overworld
-[16:13:17] [Server thread/INFO]: Saving chunks for level 'lvz'/Nether
-[16:13:17] [Server thread/INFO]: Saving chunks for level 'lvz'/The End
-[16:13:22] [Server thread/INFO]: [Player779: Set the time to 13000]
-[16:13:22] [Client thread/INFO]: [CHAT] Set the time to 13000
-[16:13:25] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:25] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:30] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:30] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:31] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:31] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:31] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:31] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:33] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:33] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:34] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:34] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:35] [Server thread/INFO]: [Player779: Object successfully summoned]
-[16:13:35] [Client thread/INFO]: [CHAT] Object successfully summoned
-[16:13:39] [Server thread/INFO]: [Player779: Set own game mode to Survival Mode]
-[16:13:39] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:14:02] [Server thread/INFO]: Saving and pausing game...
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/Overworld
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/Nether
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/The End
-[16:14:02] [Server thread/INFO]: Stopping server
-[16:14:02] [Server thread/INFO]: Saving players
-[16:14:02] [Server thread/INFO]: Saving worlds
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/Overworld
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/Nether
-[16:14:02] [Server thread/INFO]: Saving chunks for level 'lvz'/The End
-[16:14:04] [Client thread/INFO]: Stopping!
-[16:14:04] [Client thread/INFO]: SoundSystem shutting down...
-[16:14:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[02:14:39] [Server thread/INFO]: Player493 has just earned the achievement [Taking Inventory]
+[02:14:39] [Client thread/INFO]: [CHAT] Player493 has just earned the achievement [Taking Inventory]
+[02:15:33] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-06-10_02.15.33.png
+[02:15:35] [Server thread/INFO]: Saving and pausing game...
+[02:15:35] [Server thread/INFO]: Saving chunks for level 'Display'/Overworld
+[02:15:35] [Server thread/INFO]: Saving chunks for level 'Display'/Nether
+[02:15:35] [Server thread/INFO]: Saving chunks for level 'Display'/The End
+[02:15:36] [Server thread/INFO]: Stopping server
+[02:15:36] [Server thread/INFO]: Saving players
+[02:15:36] [Server thread/INFO]: Saving worlds
+[02:15:36] [Server thread/INFO]: Saving chunks for level 'Display'/Overworld
+[02:15:36] [Server thread/INFO]: Saving chunks for level 'Display'/Nether
+[02:15:36] [Server thread/INFO]: Saving chunks for level 'Display'/The End
+[02:15:37] [Client thread/INFO]: Stopping!
+[02:15:37] [Client thread/INFO]: SoundSystem shutting down...
+[02:15:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
